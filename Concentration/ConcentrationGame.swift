@@ -56,7 +56,6 @@ class ConcentrationGame {
         for _ in 1...numberOfPairsOfCards {
             let card = Card()
             cards += [card,card]
-            
         }
         // TODO shuffle the cards
     }
@@ -68,3 +67,4 @@ extension Collection {
         return count == 1 ? first : nil
     }
 }
+
